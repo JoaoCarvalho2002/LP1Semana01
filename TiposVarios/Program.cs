@@ -23,6 +23,13 @@ namespace TiposVarios
             Console.WriteLine(char1);
             Console.WriteLine(char2);
 
+            //real variables
+            float float1=1.20f;
+            double double1=2.33;
+            Console.WriteLine(float1);
+            Console.WriteLine(double1);
+
+
         }
     }
 }
