@@ -9,6 +9,7 @@ namespace TiposVarios
         static void Main()
         {
             //exercicio 3 
+
             //integer variables exercice
             int intnumber=1;
             uint uintnumber=2;
@@ -29,6 +30,11 @@ namespace TiposVarios
             Console.WriteLine(float1);
             Console.WriteLine(double1);
 
+            //boolean variables
+            bool True=true;
+            bool False=false;
+            Console.WriteLine(True);
+            Console.WriteLine(False);
 
         }
     }
