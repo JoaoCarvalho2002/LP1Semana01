@@ -6,6 +6,18 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {   
+            //exercicio 6
+            
+            double xx=0.12345;
+            int ii=18;
+            //print xx(real number with 2 decimals,percentage with 1 decimal)
+            Console.WriteLine(xx.ToString("f2"));
+            Console.WriteLine(xx.ToString("p1"));
+            //print ii(hexadecimal,coin)
+            Console.WriteLine(ii.ToString("X"));
+            Console.WriteLine(ii.ToString("C"));
+
+
             //exercicio 4
             Console.WriteLine("Exercice 4");
             //string variables
